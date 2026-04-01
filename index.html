@@ -209,7 +209,7 @@ Pero si querés sumar un mimo a esta nueva etapa, podés ver nuestra mesa de reg
                 <p>No nos queremos perder de nada, comparti fotos y videos de la boda y no olvides etiquetarnos. 💖
                 </p> 
                 <a   class="boton" href="https://www.instagram.com/joseyseba.siquiero/">@joseyseba.siquiero</a>
-
+<br>
             </div>
         </div>
         <div data-aos="fade-up"  class="accordion-item">
@@ -227,6 +227,7 @@ Pero si querés sumar un mimo a esta nueva etapa, podés ver nuestra mesa de reg
                     Te compartimos la ruta que recomendamos al salir de la iglesia. 
                   
                 </p> 
+                <br>
                <a class="boton" href="https://www.google.com/maps/dir/Catedral+San+Antonio+de+Padua+de+la+Concordia,+Urquiza+638,+E3200+Concordia,+Entre+R%C3%ADos/Bodega+Robinson,+Gualeguay+4500,+E3202+Concordia,+Entre+R%C3%ADos/@-31.3604183,-58.0568741,13z/data=!4m15!4m14!1m5!1m1!1s0x95ade9e306b284a3:0x22d70d74361400b9!2m2!1d-58.0181298!2d-31.3974864!1m5!1m1!1s0x95ade9b76e5cd423:0x80f94d22192c7997!2m2!1d-58.0234443!2d-31.3291876!3e0!5i1?entry=ttu&g_ep=EgoyMDI2MDMzMC4wIKXMDSoASAFQAw%3D%3D">VER RUTA</a>
             </div>
         </div>
@@ -283,6 +284,21 @@ Pero si querés sumar un mimo a esta nueva etapa, podés ver nuestra mesa de reg
         AOS.init();
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const audio = document.getElementById("myAudio");
+    
+        // Escucha el primer scroll
+        const playOnScroll = () => {
+          audio.play().catch(e => {
+            console.warn("El navegador bloqueó la reproducción automática", e);
+          });
+          document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+        };
+    
+        document.addEventListener("scroll", playOnScroll);
+      });
+    </script>
 
     <script>
 
