@@ -311,7 +311,7 @@ audio::-webkit-media-controls-current-time-display {
 }
 .quote2 h3 {
     color: var(--color-principal);
-    padding: 400px 0 0 0;
+   
      font-size: 2.2em;
     font-weight: 100;
     text-align: center;
