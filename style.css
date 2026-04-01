@@ -318,10 +318,6 @@ audio::-webkit-media-controls-current-time-display {
     padding: auto;
     margin: auto;
 }
-.quote2-info {
-    padding-top: 300px;
-   
-}
 .quote2-info p{
      color: var(--color-secundario);
      text-align: center;
