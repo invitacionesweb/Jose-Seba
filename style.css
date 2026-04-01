@@ -324,6 +324,7 @@ audio::-webkit-media-controls-current-time-display {
 }
 .quote2-info p{
      color: var(--color-secundario);
+     text-align: center;
 }
 .quote1 {
     width: 100%;
