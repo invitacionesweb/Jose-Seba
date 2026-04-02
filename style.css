@@ -314,6 +314,7 @@ audio::-webkit-media-controls-current-time-display {
    
      font-size: 2.2em;
     font-weight: 100;
+    line-height: 1,5;
     text-align: center;
     padding: auto;
     margin: auto;
@@ -660,6 +661,15 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
     padding: 0;
     margin: 0;
     font-size: 2.2em;
+    line-height: 1.5;
+}
+
+.quote2 h3 {
+    color: var(--color-principal);
+    padding: 0;
+    margin: 0;
+    font-size: 2.2em;
+    line-height: 1.5;
 }
 
 
