@@ -213,6 +213,15 @@ audio::-webkit-media-controls-enclosure {
 audio::-webkit-media-controls-current-time-display {
     display:none !important;
 }
+.datos-ubicacion2 {
+    width: 100%;
+    height: auto;
+    padding: 10px 0 20px ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*INFO X BLOQUES*/
 .information {
@@ -307,7 +316,8 @@ audio::-webkit-media-controls-current-time-display {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    padding: 0 0 20px 0;
 }
 .quote2 h3 {
     color: var(--color-principal);
@@ -396,6 +406,39 @@ padding: 0;
     color: var(--color-terciario);
 }
 
+.timeline2 {
+    margin: 0px 0 60px 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.timeline2 h2 {
+    text-align: center;
+    font-family: var(--font-principal);
+    font-weight: 100;
+    font-size: 2.2em;
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 0;
+    margin-bottom: none;
+}
+.timeline2 img {
+margin: 0;
+padding: 0;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+.timeline2 .iconos {
+    width: 100vw;
+    height: auto;
+    display: flex;
+      flex-direction: column;
+    text-align: center;
+    gap: 6px;
+}
 /*corazones*/
 .timeline .heart1 {
 position: absolute; /* Se posiciona respecto al más cercano "relative" */
@@ -765,6 +808,15 @@ footer img {
         
     }
     .timeline p {
+        font-size: 1.7em;
+        font-family: var(--font-principal);
+
+    }
+    .timeline2 .iconos {
+        flex-direction: column;
+        
+    }
+    .timelin2 p {
         font-size: 1.7em;
         font-family: var(--font-principal);
 
