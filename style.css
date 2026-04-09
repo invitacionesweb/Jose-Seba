@@ -418,6 +418,20 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
 .heart2 img {
     width: 100px;
 }
+.ubicacion-concordia {
+    font-family: var(--font-principal);
+      padding: 0px 0 16px 0;
+    margin: 0;
+      text-align: center;
+ font-size: 2.2em;
+ color: var(--color-terciario);
+ font-weight: 100;
+ line-height:25px;
+}
+.ubicacion-concordia h3 {
+    padding: auto;
+    text-align: center;
+}
 /*FORMS*/
 .forms {
     background-color: var(--color-secundario);
